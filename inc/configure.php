@@ -1,13 +1,13 @@
 <?php
 
-$db_HOST        = '127.0.0.1';
-$db_USERNAME    = 'username';
-$db_PASSWORD    = 'password';
-$db_NAME        = 'database';
+$db_HOST        = '';
+$db_USERNAME    = '';
+$db_PASSWORD    = '';
+$db_NAME        = '';
 
-$siteHost       = 'yourdomain.net';
-$siteURL        = sprintf("http://%s/",$_SERVER['HTTP_HOST']);
+$siteHost       = '';
+$siteURL        = sprintf("https://%s/",$_SERVER['HTTP_HOST']);
 
 $emailAddress   = "youremail@gmail.com";
-
+error_reporting(E_ERROR);
 ?>

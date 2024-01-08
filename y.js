@@ -1,5 +1,5 @@
 /** CHANGE THIS VALUE TO YOUR SERVER **/
-var phoneHome = "http://m19.us/"; // leave trailing slash
+var phoneHome = ""; // leave trailing slash
 
 var today = new Date();
 var expire = new Date();
