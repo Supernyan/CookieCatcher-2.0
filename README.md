@@ -1,6 +1,5 @@
 CookieCatcher
 =============
-
 CookieCatcher is an open source application which was created to assist in the exploitation of XSS (Cross Site Scripting) vulnerabilities within web applications to steal user session IDs (aka Session Hijacking). The use of this application is purely educational and should not be used without proper permission from the target application.
 
 For more information on XSS visit the following link:
@@ -8,6 +7,10 @@ https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
 
 For more information on Session Hijacking visit the following link:
 https://www.owasp.org/index.php/Session_hijacking_attack
+
+About This Version
+------------------
+This version of CookieCatcher represents an updated adaptation of the original codebase available at https://github.com/DisK0nn3cT/CookieCatcher. This updated version has been tailored to support newer PHP versions, ensuring compatibility and improved functionality for contemporary web environments.
 
 Features
 -------
@@ -27,29 +30,15 @@ Requirements
 
 CookieCatcher is built for a LAMP stack running the following:
 
-* PHP 5.x.x
+* PHP 8.X.X
 * PHP-cURL
 * MySQL
 * Lynx & crontab
 
 Installation
 ------------
-* Download the source from github `git clone https://github.com/DisK0nn3cT/CookieCatcher.git` or use the ZIP file and extract it on your server. 
+* Download the source from github `git clone https://github.com/Supernyan/CookieCatcher-New-version` or use the ZIP file and extract it on your server. 
 * Setup the directory as a virtualhost in Apache (I won't go over these details, however, you may ask me via email or you can use google.)
 * Create a database for the application and load the SETUP.sql file.
 * Setup a cron job as shown in the SETUP.cron file.
 
-DEMO
-----
-A live demo of the application can be viewed at http://m19.us. Small domain names are recommended to cut down on the character space needed for the payloads.
-
-* YouTube Video: http://www.youtube.com/watch?v=2GH6RRozOpY
-
-Contribute
-----------
-If you have ideas or suggestions on how to improve upon the existing application and would like to offer your time, please contact me via email.
-
-Credits
--------
-@disk0nn3ct - Author
-danny.chrastil@gmail.com
