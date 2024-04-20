@@ -1,5 +1,5 @@
-CookieCatcher
-=============
+CookieCatcher 2.0
+=================
 CookieCatcher is an open source application which was created to assist in the exploitation of XSS (Cross Site Scripting) vulnerabilities within web applications to steal user session IDs (aka Session Hijacking). The use of this application is purely educational and should not be used without proper permission from the target application.
 
 For more information on XSS visit the following link:
